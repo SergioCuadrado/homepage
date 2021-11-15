@@ -1,4 +1,4 @@
-import Link from "next/Link";
+import Link from "next/link";
 import { Text, useColorModeValue } from "@chakra-ui/react";
 
 import styled from "@emotion/styled";
