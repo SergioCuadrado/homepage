@@ -6,7 +6,6 @@ import {
   Box,
   Heading,
   Image,
-  SimpleGrid,
   useColorModeValue,
   List,
   ListItem,
@@ -17,7 +16,6 @@ import Layout from "../components/layouts/article";
 import Paragraph from "../components/paragraph";
 import { ChevronRightIcon } from "@chakra-ui/icons";
 import { BioSection, BioYear } from "../components/bio";
-import { GridItem } from "../components/grid-items";
 import { IoLogoGithub } from "react-icons/io5";
 
 const Page = () => {
