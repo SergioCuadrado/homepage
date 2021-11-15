@@ -4,7 +4,8 @@
   "description": "Sergio's website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
-    "build": "next build"
+    "build": "next build",
+    "start": "next start"
   },
   "keywords": [],
   "author": "Sergio Mañoso<sergiocuadrado14@gmail.com>",
