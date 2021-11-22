@@ -63,11 +63,11 @@ const Page = () => {
             Work
           </Heading>
           <Paragraph>
-            Sergio is a full-stack developer Junior based in Girona with a
-            passion for building websites and how they work / stuff he wants. He
-            has a love for everything related to website management and data
-            management. When I'm not programming what I love are video games
-            (especially fighting games) and doing sports (Crossfit ❤).
+            Sergio is a full-stack developer Junior living in Girona with a
+            passion for building websites and how they works and other stuff he
+            wants. He has a love for everything related to website management
+            and data management. When I'm not programming, what I love are video
+            games (especially fighting games) and doing sports (Crossfit ❤).
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
