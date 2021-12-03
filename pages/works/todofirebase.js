@@ -12,8 +12,12 @@ const Work = () => {
           ToDo-Firebase <Badge>2021</Badge>
         </Title>
         <P>
-          Search for all existing anime and save your favourite anime in your
-          anime list by creating a user with an encrypted password.
+          It is a firebase application that you can:
+          <br /> - Create the tasks you want.
+          <br /> - Mark the tasks you have already completed.
+          <br /> - Uncheck the tasks you thought you had finished.
+          <br /> - Delete the task you want.
+          <br /> - Switch from dark to light mode.
         </P>
         <List ml={4} my={4}>
           <ListItem>
