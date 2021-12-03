@@ -3,6 +3,7 @@ import Section from "../components/section";
 import { WorkGridItem } from "../components/grid-items";
 import Layout from "../components/layouts/article";
 
+import thumbTodoFirebase from "../public/images/thumbTodoFirebase_01.png";
 import thumbMyanimelist from "../public/images/thumbMyanimelist.png";
 import thumbTaskList from "../public/images/thumbTodo.png";
 import thumbRickandMorty from "../public/images/thumbRickandMorty.png";
@@ -18,21 +19,20 @@ const Works = () => {
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
             <WorkGridItem
-              id="myanimelist"
-              title="MyAnimeList"
-              thumbnail={thumbMyanimelist}
+              id="todofirebase"
+              title="Todo-Firebase"
+              thumbnail={thumbTodoFirebase}
             >
               Website to search for the anime you like and save it to your user.
             </WorkGridItem>
           </Section>
           <Section>
             <WorkGridItem
-              id="tasklist"
-              title="TaskList-LocalStorageJS"
-              thumbnail={thumbTaskList}
+              id="myanimelist"
+              title="MyAnimeList"
+              thumbnail={thumbMyanimelist}
             >
-              List of tasks made with JavaScript storing the information in the
-              localStorage
+              Website to search for the anime you like and save it to your user.
             </WorkGridItem>
           </Section>
           <Section>
@@ -43,6 +43,16 @@ const Works = () => {
             >
               A search engine for Rick and Morty characters and add to
               favourites.
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem
+              id="tasklist"
+              title="TaskList-LocalStorageJS"
+              thumbnail={thumbTaskList}
+            >
+              List of tasks made with JavaScript storing the information in the
+              localStorage
             </WorkGridItem>
           </Section>
         </SimpleGrid>
