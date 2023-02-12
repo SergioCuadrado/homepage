@@ -1,4 +1,4 @@
-import NextLink from "next/link";
+import NextLink from 'next/link';
 import {
   Link,
   Button,
@@ -10,13 +10,13 @@ import {
   List,
   ListItem,
   Icon,
-} from "@chakra-ui/react";
-import Section from "../components/section";
-import Layout from "../components/layouts/article";
-import Paragraph from "../components/paragraph";
-import { ChevronRightIcon } from "@chakra-ui/icons";
-import { BioSection, BioYear } from "../components/bio";
-import { IoLogoGithub } from "react-icons/io5";
+} from '@chakra-ui/react';
+import Section from '../components/section';
+import Layout from '../components/layouts/article';
+import Paragraph from '../components/paragraph';
+import { ChevronRightIcon } from '@chakra-ui/icons';
+import { BioSection, BioYear } from '../components/bio';
+import { IoLogoGithub } from 'react-icons/io5';
 
 const Page = () => {
   return (
@@ -24,15 +24,16 @@ const Page = () => {
       <Container>
         <Box
           borderRadius="lg"
-          bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
+          bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
           p={3}
           mb={6}
+          mt={2}
           align="center"
         >
-          Hello, I&apos;m a full-stack developer Junior
+          Hello, I&apos;m a full-stack developer
         </Box>
 
-        <Box display={{ md: "flex" }}>
+        <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
             <Heading as="h2" variant="page-title">
               Sergio Mañoso
@@ -63,11 +64,11 @@ const Page = () => {
             Work
           </Heading>
           <Paragraph>
-            Sergio is a full-stack developer Junior living in Girona with a
-            passion for building websites and how they works and other stuff he
-            wants. He has a love for everything related to website management
-            and data management. When I'm not programming, what I love are video
-            games (especially fighting games) and doing sports (Crossfit ❤).
+            Sergio is a full-stack developer living in Girona with a passion for
+            building websites and how they works and other stuff he wants. He
+            has a love for everything related to website management and data
+            management. When I'm not programming, what I love are video games
+            (especially fighting games) and doing sports (Crossfit ❤).
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
@@ -101,8 +102,16 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
-            courses I have taken online at{" "}
+            courses I have taken online at{' '}
             <Link href="https://platzi.com/p/sergiomc07/">Platzi</Link>
+          </BioSection>
+          <BioSection>
+            <BioYear>2022 - 2023</BioYear>
+            Working at{' '}
+            <Link href="https://bisual.net/" target="_blank">
+              Bisual
+            </Link>{' '}
+            as full-stack developer
           </BioSection>
         </Section>
 
