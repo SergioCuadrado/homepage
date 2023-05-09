@@ -106,7 +106,7 @@ const Page = () => {
             <Link href="https://platzi.com/p/sergiomc07/">Platzi</Link>
           </BioSection>
           <BioSection>
-            <BioYear>2022 - 2023</BioYear>
+            <BioYear>2022 to present</BioYear>
             Working at{' '}
             <Link href="https://bisual.net/" target="_blank">
               Bisual
